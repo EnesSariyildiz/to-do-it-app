@@ -9,20 +9,25 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="medium">Welcome to todo'it</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content [fullscreen]="true">
-    <div class="welcome-container">
-      <p>Tab 1 sayfasına hoş geldiniz.</p>
+    <div class="">
+      <h4 class="welcome-title">Welcome to todo'it</h4>
+      <p class="welcome-text">The word "todo" is short for "to do" in English and means "to do list". Todo is used as a
+        list of tasks or
+        tasks that
+        need to be done. Items added to this list are often used to keep a record of unfinished tasks or to remind you
+        of work
+        to be done in the future. Todo lists are often used for organization and tracking in personal or professional
+        life.</p>
     </div>
+    <ion-button expand="block">New Features</ion-button>
+    <ion-button class="dark">Default</ion-button>
 
-    <ion-button id="open-action-sheet">Open</ion-button>
-    <ion-action-sheet trigger="open-action-sheet" header="Actions" [buttons]="actionSheetButtons"></ion-action-sheet>
 
-    <app-explore-container name="Tab 1 page"></app-explore-container>
+
+
   </ion-content>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>

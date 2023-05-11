@@ -1,4 +1,16 @@
-.welcome-container {
+.welcome-title {
     padding: 20px;
     text-align: center;
+}
+
+.welcome-text {
+    padding: 20px;
+}
+
+.custom-button {
+    --ion-background-color: #6200ff;
+    /* Arka plan rengi */
+    background-color: #6200ff;
+    --ion-color: #FFFFFF;
+    /* Metin rengi */
 }
