@@ -15,16 +15,22 @@
   <ion-content [fullscreen]="true">
     <div class="">
       <h4 class="welcome-title">Welcome to todo'it</h4>
-      <p class="welcome-text">The word "todo" is short for "to do" in English and means "to do list". Todo is used as a
-        list of tasks or
-        tasks that
-        need to be done. Items added to this list are often used to keep a record of unfinished tasks or to remind you
-        of work
-        to be done in the future. Todo lists are often used for organization and tracking in personal or professional
-        life.</p>
+      <p class="welcome-text">"Todo" kelimesi İngilizce'de "to do" kelimesinin kısaltmasıdır ve "to do list" anlamına
+        gelir.
+      <p class="welcome-text">Todo olarak kullanılır
+        görev listesi veya
+        görevler
+        yapılması gerekiyor. Bu listeye eklenen öğeler genellikle tamamlanmamış görevlerin kaydını tutmak veya size
+        hatırlatmak
+        için kullanılır.</p>
+      <p class="welcome-text">
+        işin
+        gelecekte yapılacak. Yapılacaklar listeleri genellikle kişisel veya profesyonel işlerde organizasyon ve takip
+        için
+        kullanılır.
+        hayat.</p>
     </div>
-    <ion-button expand="block">New Features</ion-button>
-    <ion-button class="dark">Default</ion-button>
+    <ion-button expand="block" class="features-button" (click)="goToWebVersion()">Web Sürümü</ion-button>
 
 
 
